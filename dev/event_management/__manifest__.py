@@ -20,15 +20,15 @@
 #
 ###################################################################################
 {
-    'name': 'Event Management',
+    'name': 'Catering Management',
     'version': '16.0.2.0.0',
     'summary': """Core Module for Managing Different Types Of Events.""",
-    'description': """Core Module for Managing Different Types Of Events""",
+    'description': """modul untuk catering industri menyambungkan ke incentory manegement """,
     "category": "Services",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
+    'author': 'DIKI ILHAM FIRMASNYAH',
+    'company': 'Telkom University',
+    'maintainer': 'DIKI ILHAM FIRMASNYAH',
+    'website': "https://diki1211.blogspot.com/",
     'depends': ['product', 'account'],
     'data': ['security/event_security.xml',
              'security/ir.model.access.csv',

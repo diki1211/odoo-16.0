@@ -125,7 +125,7 @@
             <field name="name">event.management.view.search</field>
             <field name="model">event.management</field>
             <field name="arch" type="xml">
-                <search string="Event Management">
+                <search string="Catering Management">
                     <field name="ref"/>
                     <field name="type_of_event_id"/>
                     <field name="partner_id"/>
@@ -156,7 +156,7 @@
             <field name="name">event.management.view.graph</field>
             <field name="model">event.management</field>
             <field name="arch" type="xml">
-                <graph string="Event Orders">
+                    <graph string="Event Orders">
                     <field name="partner_id"/>
                     <field name="type_of_event_id"/>
                     <field name="price_subtotal" type="measure"/>
@@ -166,23 +166,23 @@
 
 
         <record id="event_management_action_view_kanban" model="ir.actions.act_window">
-            <field name="name">Event Management</field>
+            <field name="name">Catering Management</field>
             <field name="res_model">event.management</field>
             <field name="type">ir.actions.act_window</field>
             <field name="view_mode">kanban,tree,form,calendar,graph</field>
             <field name="help" type="html">
               <p class="oe_view_nocontent_create">
-                Click to add an event order.
+                Click to add an Catering order.
               </p><p>
                 Here you can create and manage your events.
               </p>
             </field>
         </record>
 
-        <menuitem id="event_management_root_menu" name="Event Management"/>
-        <menuitem id="event_management_sub_menu1" name="Event Management" parent="event_management_root_menu"
+        <menuitem id="event_management_root_menu" name="Catering Management"/>
+        <menuitem id="event_management_sub_menu1" name="Catering Management" parent="event_management_root_menu"
                   sequence="5"/>
-        <menuitem id="event_management_sub_menu2" name="Event Management" parent="event_management_sub_menu1"
+        <menuitem id="event_management_sub_menu2" name="Catering Management" parent="event_management_sub_menu1"
                   action="event_management_action_view_kanban" sequence="2"/>
         <menuitem id="event_management_service_menu" name="Service" parent="event_management_sub_menu1" sequence="4"/>
 
