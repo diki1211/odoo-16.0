@@ -84,7 +84,7 @@
                             </group>
                         </group>
                         <notebook>
-                            <page string="Catering Works">
+                            <page string="Catering Order">
                                 <field name="catering_works_ids" mode="tree"
                                        attrs="{'readonly': [('state', '=', 'done')]}">
                                     <form string="Catering Lines Form">
@@ -100,7 +100,7 @@
                                         <field name="service_id" domain="[('is_catering', '=', True)]"/>
                                         <field name="work_status" string="Status"/>
                                         <field name="quantity"/>
-                                        <field name="amount"/>
+                                        <field name="amount" string ="Price"/>
                                         <field name="currency_id"
                                                invisible="1"/>
                                         <field name="sub_total"

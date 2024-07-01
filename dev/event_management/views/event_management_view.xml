@@ -156,7 +156,7 @@
             <field name="name">event.management.view.graph</field>
             <field name="model">event.management</field>
             <field name="arch" type="xml">
-                    <graph string="Event Orders">
+                    <graph string="azOrders">
                     <field name="partner_id"/>
                     <field name="type_of_event_id"/>
                     <field name="price_subtotal" type="measure"/>
